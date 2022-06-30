@@ -1,0 +1,1042 @@
+/*** TJC CSS EDITS ***/
+/***********************/
+
+/*** GENERAL CSS EDITS ***/
+/* BUTTON CLASSES */
+.button--primary {
+  border-color: #007cc7 !important;
+  background-color: #007cc7 !important;
+  color: #ffffff !important;
+  -webkit-transition: background 0.3s ease;
+}
+
+.button--primary:hover {
+  background-color: #ffffff !important;
+  color: #007cc7 !important;
+  border-color: #1e2761 !important;
+}
+
+.button--secondary {
+  border-color: #12232e !important;
+  background-color: #12232e !important;
+  color: #ffffff !important;
+  -webkit-transition: background 0.3s ease;
+}
+
+.button--secondary:hover {
+  border-color: #12232e !important;
+  background-color: #ffffff !important;
+  color: #12232e !important;
+}
+
+/*** NAVIGATION ****/
+/*** Nav Bar/Header Section ***/
+
+/* Nav Bar Width */
+#section-QfT741PN > .inner {
+  max-width: 1536px;
+}
+
+/* Nav Wrapper Justify Content to left */
+#nav-menu-0anY90jta .nav-menu-wrapper {
+  justify-content: flex-start !important;
+}
+
+/* Reverse for small screens */
+@media screen and (max-width: 1024px) {
+  #nav-menu-0anY90jta .nav-menu-wrapper {
+    justify-content: space-between !important;
+    width: 92vw !important;
+  }
+
+  #nav-menu-0anY90jta .nav-menu-wrapper .logo {
+    margin-right: 0px !important;
+    margin-left: 5px !important;
+  }
+}
+
+/* Nav Bar flex and font options */
+#nav-menu-0anY90jta ul.nav-menu {
+  width: 1109px !important;
+  justify-content: flex-start !important;
+  padding-top: 6px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.25px;
+}
+
+@media screen and (max-width: 1350px) {
+  #nav-menu-0anY90jta ul.nav-menu {
+    width: 840px !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #nav-menu-0anY90jta ul.nav-menu {
+    width: 630px !important;
+  }
+}
+
+/* Nav Bar dropdown font options */
+#nav-menu-0anY90jta .nav-menu .dropdown-menu .dropdown-item {
+  font-weight: 400 !important;
+  letter-spacing: 0.25px;
+}
+
+/* Spaceing between logo and first nav link */
+#nav-menu-0anY90jta .nav-menu-wrapper .branding .title {
+  min-width: 1px !important;
+}
+
+/* LOGIN LINK */
+/* Push last Li to the right */
+#nav-menu-0anY90jta li.nav-menu-item:last-child {
+  margin-left: auto !important;
+}
+
+/* Desktop Nav login link styling */
+#nav-menu-0anY90jta li.nav-menu-item:last-child a {
+  font-family: "Poppins", sans-serif !important;
+  padding-right: 0px !important;
+  font-weight: 900;
+  font-size: 19px;
+  color: #007cc7;
+}
+
+#nav-menu-0anY90jta li.nav-menu-item:last-child a:hover {
+  color: #203647;
+}
+
+/* Remove rigid flex properties */
+#nav-menu-0anY90jta .nav-menu-item {
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+/* Nav Parent Div */
+#col-033HynmM > .inner {
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+/* Nav Button Div */
+#button-zkUlZ6LT9 {
+  max-width: 186px !important;
+  max-height: 50px !important;
+  display: inline-block !important;
+  width: 100%;
+  height: 100% !important;
+  padding: 1px 20px 1px 0px !important;
+}
+/* Nav Button a */
+#button-zkUlZ6LT9 a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 46px;
+}
+
+@media screen and (max-width: 1024px) {
+  #button-zkUlZ6LT9 {
+    display: none !important;
+  }
+}
+
+/* MOBILE NAV DROP DOWN */
+#nav-menu-popup {
+  height: 33vh !important;
+}
+
+#nav-menu-popup.nav-menu-0anY90jta .nav-menu-body {
+  background: #203647;
+  padding-left: 20px !important;
+}
+
+#col-1PkmgIGLX > .inner {
+  flex-direction: row !important;
+  align-items: center !important;
+  column-gap: 50px !important;
+}
+
+/* ::BEFORE ITEMS/X AND ARROW */
+
+#nav-menu-popup.nav-menu-0anY90jta
+  .nav-menu-item-toggle
+  .fa-angle-down::before {
+  color: #007cc7;
+  font-size: 32px;
+}
+
+#nav-menu-popup.nav-menu-0anY90jta .nav-menu-body .fa-times {
+  color: #007cc7;
+  font-size: 28px;
+  font-weight: 900;
+}
+/* END OF ::BEFORE ITEMS/X AND ARROW */
+
+/* MOBILE MENU POPUP: menu-item spacing */
+#nav-menu-popup.nav-menu-0anY90jta .nav-menu-body .nav-menu {
+  row-gap: 6px !important;
+}
+
+#nav-menu-popup.nav-menu-0anY90jta .nav-menu .nav-menu-item a {
+  font-size: 18px !important;
+  font-weight: 400px !important;
+  padding-bottom: 2px !important;
+  color: #007cc7;
+}
+
+#nav-menu-popup.nav-menu-0anY90jta
+  .nav-menu
+  li.nav-menu-item:last-child
+  .nav-menu-item-content {
+  color: #007cc7;
+  padding-top: 15px !important;
+}
+
+#nav-menu-popup.nav-menu-0anY90jta .nav-menu li.nav-menu-item:last-child a {
+  font-weight: 900;
+  font-size: 22px !important;
+}
+
+#nav-menu-popup .nav-menu .nav-menu-item.active .nav-dropdown-menu {
+  padding-left: 10px !important;
+  padding-top: 3px !important;
+  padding-bottom: 1px !important;
+}
+
+#nav-menu-popup
+  .nav-menu
+  .nav-menu-item.active
+  .nav-dropdown-menu
+  .nav-menu-item
+  a {
+  color: #007cc7;
+}
+
+#nav-menu-popup .nav-menu .nav-menu-item.active .nav-dropdown-menu {
+  /* Decrease size of Mobile Pop-up Screen */
+  @media screen and (max-width: 1024px) {
+    #nav-menu-popup .nav-menu-body {
+      height: 150px !important;
+      overflow-x: hidden;
+    }
+  }
+}
+
+/* Mobile Nav Menu Sandwich */
+#nav-menu-0anY90jta .nav-menu-wrapper .nav-menu-mobile span.menu-icon::before {
+  font-size: 17px;
+}
+
+/* Mobile Logo Positioning */
+@media screen and (max-width: 1024px) {
+  .nav-menu-wrapper.default .branding .logo {
+    margin-right: 30px !important;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+}
+/*** END OF NAV BAR/HEADER ***/
+
+/*** FOOTER ***/
+#section-TblLRAWUo {
+  padding-left: 198.5px !important;
+  padding-right: 198.5px !important;
+}
+
+#row-Ohx2-hjZ1Z > .inner[data-v-71a73cda] {
+  justify-content: space-evenly !important;
+}
+
+#col-EHMm__-8W {
+  padding-left: 0px !important;
+  flex-grow: 2 !important;
+}
+
+#col-IiDosKZcZe,
+#col-HYUOE4cll3,
+#col-0O5GK8sfPW,
+#col-1xD7vEnfHH {
+  padding-left: 0px !important;
+}
+
+#col-1xD7vEnfHH,
+#col-0O5GK8sfPW,
+#col-HYUOE4cll3 {
+  padding-right: 0px !important;
+}
+
+#row-Ohx2-hjZ1Z > .inner[data-v-71a73cda] p a {
+  text-decoration: none !important;
+}
+
+#col-1xD7vEnfHH > .inner {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  height: fit-content !important;
+  justify-content: center !important;
+}
+
+#heading-nXmMCjRjR {
+  width: 100% !important;
+}
+
+#heading-nXmMCjRjR .cheading-nXmMCjRjR {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  #section-TblLRAWUo {
+    padding-left: 108.5px !important;
+    padding-right: 108.5px !important;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  #section-TblLRAWUo {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #col-EHMm__-8W > .inner {
+    padding-bottom: 30px !important;
+  }
+
+  #col-1xD7vEnfHH {
+    padding-top: 20px !important;
+  }
+
+  #col-HYUOE4cll3 {
+    padding-top: 10px !important;
+  }
+
+  .heading-Wnq-LKJRR,
+  .heading-S8rjRMzDp,
+  .heading-ih55E7DDD,
+  .heading-nC2rQtjAD {
+    margin-bottom: 10px !important;
+  }
+
+  .main-heading-group span.main-heading-button {
+    padding: 0 10px !important;
+  }
+}
+/*** END OF FOOTER EDITS ***/
+
+/*** Chat Widget ***/
+/*
+@media only screen and (max-width: 500px) {
+    #lc_text-widget--btn {
+        display: none !important;
+    }
+} */ /*** END Chat Widget ***/
+
+/*** HERO ***/
+/* BG Cover */
+@media only screen and (max-width: 500px) {
+  #section-lmhD6RPC .bgCover {
+    background-attachment: scroll !important;
+  }
+}
+
+/* Features Quad Row */
+#row-OfHbEguekt .inner > div {
+  padding: 0px !important;
+}
+
+#row-OfHbEguekt {
+  width: 1000px !important;
+}
+
+.fade-in-anim {
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #row-OfHbEguekt {
+    width: 700px !important;
+  }
+
+  #row-OfHbEguekt .inner > div p {
+    font-size: 12px !important;
+  }
+}
+
+/*** HERO AND HERO ANIMAION ***/
+/********************************************************/
+
+.hero-wrapper {
+  display: block;
+  font-family: "Poppins" !important;
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1150px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1 !important;
+}
+
+.hero-heading-1 {
+  display: block;
+  width: 100%;
+  font-weight: 900 !important;
+  font-size: 76px;
+  color: #007cc7;
+  text-align: center;
+  margin: 0 0 15px !important;
+}
+
+.anim-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  overflow: visible;
+}
+
+.hero-heading-2 {
+  display: inline-block;
+  font-weight: 900 !important;
+  font-size: 76px;
+  color: #203647;
+  padding-right: 100px;
+}
+
+.hero-heading-2 strong {
+  color: #203647;
+}
+
+.dropping-texts {
+  display: inline-block;
+  width: 180px;
+  text-align: left;
+  height: 36px;
+  vertical-align: -2px;
+  color: #203647;
+}
+
+.dropping-texts > div {
+  position: absolute;
+  top: 3px;
+  font-size: 0px;
+  opacity: 0;
+  margin-left: -90px;
+  font-weight: 900;
+}
+
+.dropping-texts > div:nth-child(1) {
+  animation: roll 12s linear infinite 0s;
+}
+
+.dropping-texts > div:nth-child(2) {
+  animation: roll 12s linear infinite 2.4s;
+}
+
+.dropping-texts > div:nth-child(3) {
+  animation: roll 12s linear infinite 4.8s;
+}
+
+.dropping-texts > div:nth-child(4) {
+  animation: roll 12s linear infinite 7.2s;
+}
+
+.dropping-texts > div:nth-child(5) {
+  animation: roll 12s linear infinite 9.6s;
+}
+
+.hero-sub-heading-1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 76px;
+  color: #007cc7;
+  padding-left: 30px;
+  margin: 15px 0 0 !important;
+}
+
+.hero-sub-heading-1 strong {
+  font-style: italic;
+}
+
+.hero-sub-heading-2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #007cc7;
+  line-height: 1.7em !important;
+  margin-top: 90px !important;
+}
+
+.hero-sub-heading-2 strong {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* Standard Image Size */
+@keyframes roll {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -120px;
+    top: 2px;
+    transform: rotate(-25deg);
+  }
+
+  3% {
+    opacity: 1;
+    transform: rotate(-10deg);
+  }
+
+  5% {
+    font-size: 76px;
+    opacity: 1;
+    margin-left: -90px;
+    top: 3px;
+    transform: rotate(0deg);
+  }
+
+  14% {
+    font-size: 76px;
+    opacity: 1;
+    margin-left: -90px;
+    top: 3px;
+    transform: rotate(0deg);
+  }
+
+  23% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: -120px;
+    top: 70px;
+  }
+
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -120px;
+    top: 0px;
+    transform: rotate(50deg);
+  }
+}
+
+/* Mid Image Size */
+@keyframes roll2 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -100px;
+    top: 0px;
+    transform: rotate(-25deg);
+  }
+
+  3% {
+    opacity: 1;
+    transform: rotate(-10deg);
+  }
+
+  5% {
+    font-size: 44px;
+    opacity: 1;
+    margin-left: -55px;
+    top: 8px;
+    transform: rotate(0deg);
+  }
+
+  14% {
+    font-size: 44px;
+    opacity: 1;
+    margin-left: -55px;
+    top: 8px;
+    transform: rotate(0deg);
+  }
+
+  23% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: -100px;
+    top: 50px;
+  }
+
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -100px;
+    top: 0px;
+    transform: rotate(50deg);
+  }
+}
+
+/* Small Image Size */
+@keyframes roll3 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -35px;
+    top: 0px;
+    transform: rotate(-25deg);
+  }
+
+  3% {
+    opacity: 1;
+    transform: rotate(-10deg);
+  }
+
+  5% {
+    font-size: 24px;
+    opacity: 1;
+    margin-left: 7px;
+    top: 8px;
+    transform: rotate(0deg);
+  }
+
+  14% {
+    font-size: 24px;
+    opacity: 1;
+    margin-left: 7px;
+    top: 8px;
+    transform: rotate(0deg);
+  }
+
+  23% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: -35px;
+    top: 40px;
+  }
+
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -35px;
+    top: 0px;
+    transform: rotate(50deg);
+  }
+}
+
+/* Micro Image Size */
+@keyframes roll4 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -35px;
+    top: 0px;
+    transform: rotate(-25deg);
+  }
+
+  3% {
+    opacity: 1;
+    transform: rotate(-10deg);
+  }
+
+  5% {
+    font-size: 30px;
+    opacity: 1;
+    margin-left: 3px;
+    top: 6px;
+    transform: rotate(0deg);
+  }
+
+  14% {
+    font-size: 30px;
+    opacity: 1;
+    margin-left: 3px;
+    top: 6px;
+    transform: rotate(0deg);
+  }
+
+  23% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: -35px;
+    top: 30px;
+  }
+
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -35px;
+    top: 0px;
+    transform: rotate(50deg);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #col-9-mwVDZB > .inner {
+    padding-top: 80px !important;
+  }
+
+  .hero-wrapper {
+    line-height: 1;
+  }
+
+  .anim-wrapper {
+    height: 60px;
+  }
+
+  .hero-heading-1 {
+    font-size: 62px;
+  }
+
+  .hero-heading-2 {
+    padding-right: 60px;
+  }
+
+  .hero-wrapper,
+  .hero-heading-2 {
+    font-size: 44px;
+  }
+
+  .hero-sub-heading-1 {
+    font-size: 33px;
+    top: 5px;
+    font-weight: 300;
+  }
+
+  .dropping-texts > div {
+    top: 8px;
+    margin-left: -55px;
+    font-size: 44px;
+  }
+
+  .dropping-texts > div:nth-child(1) {
+    animation: roll2 12s linear infinite 0s;
+  }
+
+  .dropping-texts > div:nth-child(2) {
+    animation: roll2 12s linear infinite 2.4s;
+  }
+
+  .dropping-texts > div:nth-child(3) {
+    animation: roll2 12s linear infinite 4.8s;
+  }
+
+  .dropping-texts > div:nth-child(4) {
+    animation: roll2 12s linear infinite 7.2s;
+  }
+
+  .dropping-texts > div:nth-child(5) {
+    animation: roll2 12s linear infinite 9.6s;
+  }
+
+  .hero-sub-heading-2,
+  .hero-sub-heading-2 strong {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #col-9-mwVDZB > .inner {
+    padding-top: 50px !important;
+  }
+
+  .hero-wrapper {
+    line-height: 1;
+  }
+
+  .anim-wrapper {
+    height: 40px;
+    padding-left: 55px;
+  }
+
+  .hero-heading-1 {
+    font-size: 40px;
+  }
+
+  .hero-heading-2 {
+    padding-right: 0px;
+  }
+
+  .hero-wrapper,
+  .hero-heading-2 {
+    font-size: 24px;
+  }
+
+  .hero-sub-heading-1 {
+    font-size: 22px;
+    top: 0px;
+    font-weight: 300;
+    margin-top: 0px;
+  }
+
+  .hero-sub-heading-2,
+  .hero-sub-heading-2 strong {
+    font-size: 14px;
+  }
+
+  .dropping-texts > div {
+    top: 8px;
+    margin-left: 7px;
+  }
+
+  .dropping-texts > div:nth-child(1) {
+    animation: roll3 12s linear infinite 0s;
+  }
+
+  .dropping-texts > div:nth-child(2) {
+    animation: roll3 12s linear infinite 2.4s;
+  }
+
+  .dropping-texts > div:nth-child(3) {
+    animation: roll3 12s linear infinite 4.8s;
+  }
+
+  .dropping-texts > div:nth-child(4) {
+    animation: roll3 12s linear infinite 7.2s;
+  }
+
+  .dropping-texts > div:nth-child(5) {
+    animation: roll3 12s linear infinite 9.6s;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #section-lmhD6RPC {
+    padding-bottom: 0px !important;
+  }
+
+  #row-ebEbSrFEF {
+    padding-bottom: 40px !important;
+  }
+
+  .anim-wrapper {
+    padding-left: 13px;
+    justify-content: normal;
+  }
+
+  .hero-heading-1 {
+    font-size: 36px;
+    margin-bottom: 0px !important;
+  }
+
+  .hero-heading-2 {
+    width: 200px;
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+
+  .hero-sub-heading-1 {
+    margin-top: 0px !important;
+    padding-left: 0px;
+    font-size: 30px;
+  }
+
+  .hero-sub-heading-1 strong {
+    font-size: 30px;
+  }
+
+  .dropping-texts {
+    flex: 2 1 auto;
+    width: unset;
+  }
+
+  .dropping-texts > div {
+    top: 6px;
+    margin-left: 3px;
+    letter-spacing: -1px;
+  }
+
+  .dropping-texts > div:nth-child(1) {
+    animation: roll4 12s linear infinite 0s;
+  }
+
+  .dropping-texts > div:nth-child(2) {
+    animation: roll4 12s linear infinite 2.4s;
+  }
+
+  .dropping-texts > div:nth-child(3) {
+    animation: roll4 12s linear infinite 4.8s;
+  }
+
+  .dropping-texts > div:nth-child(4) {
+    animation: roll4 12s linear infinite 7.2s;
+  }
+
+  .dropping-texts > div:nth-child(5) {
+    animation: roll4 12s linear infinite 9.6s;
+  }
+
+  .hero-sub-heading-2 {
+    margin-top: 50px !important;
+    line-height: 3em !important;
+  }
+
+  .hero-sub-heading-2,
+  .hero-sub-heading-2 strong {
+    font-size: 16px;
+  }
+}
+/********************************************************/
+/*** END OF HERO ***/
+
+/*** BODY ***/
+
+#col-Z2--SosUu8 div#button-KxOkFeFpL {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+/*** MOBILE HERO BTNS: DEMO/GET STARTED ***/
+@media only screen and (max-width: 420px) {
+  #col-1PkmgIGLX {
+    height: 140px !important;
+  }
+
+  #col-1PkmgIGLX .inner {
+    flex-direction: column !important;
+    justify-content: space-around !important;
+  }
+
+  /* CTA CRM Banner */
+  #image-_NZecKBfk img {
+    width: 33px !important;
+  }
+
+  .heading-kjTm4yRlo {
+    padding-right: 3px !important;
+  }
+
+  .heading-kjTm4yRlo h1 strong {
+    font-size: 14px !important;
+  }
+
+  #button-KxOkFeFpL span.main-heading-button {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 421px) {
+  #image-_NZecKBfk img {
+    width: 38px !important;
+  }
+
+  .heading-kjTm4yRlo {
+    padding-right: 5px !important;
+  }
+
+  .heading-kjTm4yRlo h1 strong {
+    font-size: 18px !important;
+  }
+
+  #button-KxOkFeFpL span.main-heading-button {
+    font-size: 22px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* 4 tenants */
+  #col-hh1AbQDbk,
+  #col-YI3qUgMoNW,
+  #col-cAD7I04qn,
+  #col-ogUmjl2OkV,
+  #col-7MCd3ideZw,
+  #col-LPR5tdFcQ7 {
+    margin-bottom: 30px;
+  }
+
+  /* CRM Paragraph */
+  .paragraph-V1QiHQ8qE_,
+  .paragraph-QBfLig_PO {
+    padding: 0 5px !important;
+  }
+
+  /* CRM Section padding */
+  .hl_page-preview--content .section-B_wgXDnH {
+    padding-bottom: 0px !important;
+  }
+
+  .heading-8G-hjRDi,
+  .heading-Du5xAZeCP,
+  .heading-Vgic5Clak,
+  .heading-u0B-g3RKc,
+  .heading-dJvvpK5hz,
+  .heading-7rGcTab2x {
+    margin: 10px 0 !important;
+  }
+
+  /* CTA CRM Banner */
+
+  #row-66LC_UIC6s .inner {
+    flex-direction: row !important;
+  }
+
+  #col-rVZEZ5xs3y {
+    width: 100px !important;
+  }
+}
+
+/* CTA CRM Banner Button*/
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  #button-KxOkFeFpL span.main-heading-button {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #row-66LC_UIC6s {
+    padding: 0px !important;
+  }
+
+  #image-_NZecKBfk img {
+    width: 45px !important;
+  }
+
+  .heading-kjTm4yRlo h1 {
+    font-size: 26px !important;
+  }
+}
+/*** SECTION BUTTONS ***/
+
+@media screen and (max-width: 1024px) {
+  #button-00t6z6_yC,
+  #button-EOSx0grWO,
+  #button-28yrj2rfD,
+  #button-_bki0LghA {
+    text-align: center !important;
+  }
+}
+
+/*** JAVASCRIPT REVEAL ON SCROLL ***/
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal .active {
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1.1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(120px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
